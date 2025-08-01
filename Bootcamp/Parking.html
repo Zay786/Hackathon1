@@ -13,14 +13,16 @@
     }
 
     body {
-      background-color: lightblue;
+     
+      background-image: url("{{ url_for('static', filename='1978997.webp') }}");
+      
       min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 20px;
     }
-
+ 
     .login-container {
       display: flex;
       flex-direction: row;
@@ -184,6 +186,8 @@
   </style>
 </head>
 <body>
+  hello
+  
   <div class="login-container">
     <div class="left-side">
       <div class="illustration">
