@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+     
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+ 
+    .login-container {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      max-width: 900px;
+      height: 500px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-side {
+      flex: 1;
+      background-color: #e0f0ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .illustration {
+      text-align: center;
+      color: #0077cc;
+    }
+
+    .illustration img {
+      max-width: 100%;
+      width: 200px;
+      height: auto;
+    }
+
+    .illustration h1 {
+      margin: 20px 0 10px;
+      font-size: 24px;
+    }
+
+    .illustration p {
+      font-size: 16px;
+    }
+
+    .right-side {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right-side h2 {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: #0077cc;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .login-btn:hover {
+      background-color: #005fa3;
+    }
+
+    .signup-text {
+      margin-top: 15px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .signup-text a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .signup-text a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px){
+      .login-container {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+      }
+
+      .left-side,
+      .right-side {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .illustration img {
+        width: 75%;
+        max-width: 250px;
+      }
+
+      .illustration h1 {
+        font-size: 20px;
+      }
+
+      .illustration p {
+        font-size: 14px;
+      }
+
+      .right-side h2 {
+        font-size: 22px;
+      }
+
+      .form-group label {
+        font-size: 16px;
+      }
+
+      .form-group input {
+        padding: 12px;
+        font-size: 14px;
+      }
+
+      .login-btn {
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      .signup-text {
+        font-size: 13px;
+      }
+
+    }
+    
+video.bg-video {
+  position: fixed ;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+   z-index: -1; /* push behind other elements */
+}
+  </style>
+</head>
+<body>
+  
+<video class="bg-video" autoplay muted loop>
+  <source src="1043-142621372_small.mp4"  type="video/mp4">
+</video>
+  
+  <div class="login-container">
+    <div class="left-side">
+      <div class="illustration">
+        <img src="https://media1.thehungryjpeg.com/thumbs2/ori_3621109_hgdmcme14au396cltjbzjvd18256kf1sunpg0ix6_parking-zone-vector-icon-with-car-symbol-top-view.jpg" alt="Parking illustration">
+        <h1>WELCOME TO THE PARKING SYSTEM APP</h1>
+        <p>Please log in using your company account to book your parking for the week.</p>
+      </div>
+    </div>
+    <div class="right-side">
+      <h2>Login</h2>
+      <form action="ParkingLandingP.html" method="get">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required />
+        </div>
+        <button class="login-btn" type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
