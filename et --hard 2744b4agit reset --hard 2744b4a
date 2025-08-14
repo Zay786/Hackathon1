@@ -1,0 +1,37 @@
+[33m1da2196[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to origin/main
+[33m2744b4a[m HEAD@{1}: commit: DAY2
+[33m54d4331[m HEAD@{2}: commit: Add WEEK1, WEEK2, WEEK7, and OTHERS folders
+[33m460be69[m[33m ([m[1;31mBootcamp_177/main[m[33m)[m HEAD@{3}: commit: Add WEEK14 DAY2 exercises
+[33me483e11[m HEAD@{4}: commit: Complete project push
+[33m1da2196[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{5}: commit: JS
+[33m0a5f049[m HEAD@{6}: commit (merge): Finish merge with origin/main
+[33m238544c[m HEAD@{7}: commit: Final hackhaton1 version
+[33m86484d7[m HEAD@{8}: commit: Remove unnecessary folders from repo
+[33maf237fa[m HEAD@{9}: Branch: renamed refs/heads/main to refs/heads/main
+[33maf237fa[m HEAD@{11}: commit: Signin_Page
+[33m168782d[m HEAD@{12}: commit: actors
+[33m6d4b9e5[m HEAD@{13}: commit: bootcamp
+[33mfe70be9[m HEAD@{14}: commit: SQL
+[33md88a6b1[m HEAD@{15}: commit: LandingPage
+[33m1da1546[m HEAD@{16}: commit: DAY5
+[33m299e216[m HEAD@{17}: commit: LandingPage1
+[33m4f3fd08[m HEAD@{18}: commit: Component
+[33me5b7a56[m HEAD@{19}: commit: Animation
+[33mf020acb[m HEAD@{20}: commit: BootstrapEX1
+[33mb26779e[m HEAD@{21}: commit: add ASSET
+[33m72b869f[m HEAD@{22}: commit: CSSPatern
+[33m81def8b[m HEAD@{23}: commit: AvengersMedia
+[33m2c6f577[m HEAD@{24}: commit: Avengers
+[33mb271078[m HEAD@{25}: commit: Grid
+[33m3ff11ee[m HEAD@{26}: commit: BOX
+[33m21e1b92[m HEAD@{27}: commit: additional
+[33m13d1437[m HEAD@{28}: commit: restructure
+[33m6d7f9dc[m HEAD@{29}: commit: restructure
+[33mbee7efc[m HEAD@{30}: commit: DomesticCATLIONExercise
+[33mb309544[m HEAD@{31}: commit: DomesticCATExercise
+[33m426a9f1[m HEAD@{32}: commit: Self Introductory with CSS
+[33m0c4dcf4[m HEAD@{33}: commit: CookiesRecipeExercise
+[33md9434d2[m HEAD@{34}: commit: Self Introductory
+[33m2a5d86d[m HEAD@{35}: commit: Index.html V2
+[33mf8ff1aa[m[33m ([m[1;31morigin/master[m[33m, [m[1;31mBootcamp_177/master[m[33m, [m[1;31mBootcamp_177/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{36}: checkout: moving from master to main
+[33mf8ff1aa[m[33m ([m[1;31morigin/master[m[33m, [m[1;31mBootcamp_177/master[m[33m, [m[1;31mBootcamp_177/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{37}: commit (initial): Index.html
